@@ -15,8 +15,8 @@ Email us at <a href="mailto:galke@imada.sdu.dk">galke@imada.sdu.dk</a> if you wa
 
 | Date   | Topic                                                     | Presenter |     |
 | ------ | --------------------------------------------------------- | --------- | --- |
-| Feb 3  | [Activation Oracles](https://arxiv.org/abs/2512.15674)    | Federico  |     |
-| Feb 10 | [Weird generalizations](https://arxiv.org/abs/2512.09742) | Lukas     |     |
-| Feb 17 | [Dead Salmon Paper](https://arxiv.org/pdf/2512.18792)     | Andor     |     |
+| Feb 3, 2026  | [Activation Oracles](https://arxiv.org/abs/2512.15674)    | Federico  |     |
+| Feb 10, 2026 | [Weird generalizations](https://arxiv.org/abs/2512.09742) | Lukas     |     |
+| Feb 17, 2026 | [The Dead Salmons of AI Interpretability](https://arxiv.org/pdf/2512.18792)     | Andor     |     |
 
 
