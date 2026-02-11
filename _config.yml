@@ -20,7 +20,7 @@ remote_theme: lgalke/swiss
 title: "Machine Ecology Lab"
 tagline: "AI Safety through Interpretability" # Used by seo tag
 description: >
-  AI Safety through the lens of ecology — understanding how AI systems grow, interact, and evolve.
+  Advancing AI Safety through understanding and steering neural ecosystems at multiple scales — from individual models over agentic and multi-agent systems to populations of AI agents.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://machineecology.github.io" # the base hostname & protocol for your site, e.g. http://example.com
