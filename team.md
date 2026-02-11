@@ -5,8 +5,8 @@ permalink: /team/
 ---
 
 {% for member in site.team %}
-  <div style="max-width: 256px">
   {% if member.image and member.image != "" %}
+  <div style="max-width: 256px">
   <img src="{{ member.image }}" alt="{{ member.name }}" style="width: 256px; height: 256px; object-fit: cover;"/>
   {% if member.photocredit and member.photocredit != "" %}
   <div style="text-align: center; font-weight: 200; "><small><i>
@@ -17,8 +17,8 @@ permalink: /team/
   {% endif %}
   </i></small></div>
   {% endif %}
-  {% endif $}
   </div>
+  {% endif $}
   <h2>{{ member.name }}</h2>
   <i>{{member.role }}</i>
   <p class="prose">{{ member.content | markdownify }}</p>
