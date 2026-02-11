@@ -4,7 +4,7 @@ title: Team
 permalink: /team/
 ---
 
-The machine ecology lab is currently being established. This page will be updated as soon as new members join.
+*The machine ecology lab is currently being established. This page will be updated as soon as new members join.*
 
 {% for member in site.team %}
   {% if member.image and member.image != "" %}
