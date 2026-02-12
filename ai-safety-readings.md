@@ -13,10 +13,9 @@ Email us at <a href="mailto:galke@imada.sdu.dk">galke@imada.sdu.dk</a> if you wa
 ## Schedule
 
 
-| Date   | Topic                                                     | Presenter |     |
-| ------ | --------------------------------------------------------- | --------- | --- |
-| Feb 3, 2026  | [Activation Oracles](https://arxiv.org/abs/2512.15674)    | Federico  |     |
-| Feb 10, 2026 | [Weird generalizations](https://arxiv.org/abs/2512.09742) | Lukas     |     |
-| Feb 17, 2026 | [The Dead Salmons of AI Interpretability](https://arxiv.org/pdf/2512.18792)     | Andor     |     |
-
-
+| Date   | Topic                                                     | Presenter |
+| ------ | --------------------------------------------------------- | --------- |
+| Feb 3, 2026  | [Activation Oracles](https://arxiv.org/abs/2512.15674)    | Federico  |
+| Feb 10, 2026 | [Weird generalizations](https://arxiv.org/abs/2512.09742) | Lukas     |
+| Feb 16, 2026 | [The Dead Salmons of AI Interpretability](https://arxiv.org/pdf/2512.18792)     | Andor |
+| Mar 2, 2026 | [Narrow Finetuning Leaves Clearly Readable Traces in Activation Differences](https://www.arxiv.org/abs/2510.13900)     | Annemette     |
