@@ -27,8 +27,8 @@ Our research is organized around five themes:
     venue="IJCNLP-AACL 2025"
     abstract="Language and culture are deeply intertwined, yet it is so far unclear how and where multilingual large language models encode culture. Here, we extend upon an established methodology for identifying language-specific neurons and extend it to localize and isolate culture-specific neurons, carefully disentangling their overlap and interaction with language-specific neurons. To facilitate our experiments, we introduce MUREL, a curated dataset of 85.2 million tokens spanning six different cultures. Our localization and intervention experiments show that LLMs encode different cultures in distinct neuron populations, predominantly in upper layers, and that these culture neurons can be modulated independently from language-specific neurons or those specific to other cultures. These findings suggest that cultural knowledge and propensities in multilingual language models can be selectively isolated and edited - promoting fairness, inclusivity, and alignment."
     code_url="https://github.com/namazifard/Culture_Neurons"
-    year="2025",
-    paper_url="https://aclanthology.org/2025.findings-ijcnlp.45/",
+    year="2025"
+    paper_url="https://aclanthology.org/2025.findings-ijcnlp.45/"
     authorcopy_url="https://arxiv.org/abs/2508.02241"
 %}
 
