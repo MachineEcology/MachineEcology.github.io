@@ -7,15 +7,15 @@ permalink: /research/
 AI systems are increasingly deployed not as isolated tools, but as interconnected agents that interact with each other, with humans, and with their environment. We study these neural ecosystems at multiple scales: the internal structure of individual models, the dynamics of multi-agent interaction, and the collective behavior of agent populations.
 Our research is organized around five themes:
 
-Interpretability & Transparency.  What do models know, and how do they represent it? We develop methods to understand the internal structure of neural networks, from localizing culture-specific neurons to mechanistic analysis of model behavior.
+**Interpretability & Transparency**.  What do models know, and how do they represent it? We develop methods to understand the internal structure of neural networks, from localizing culture-specific neurons to mechanistic analysis of model behavior.
 
-Control & Containment. How do we keep AI systems within safe boundaries? We investigate principled steering techniques, guardrails, and intervention methods that remain effective as systems grow in autonomy.
+**Control & Containment**. How do we keep AI systems within safe boundaries? We investigate principled steering techniques, guardrails, and intervention methods that remain effective as systems grow in autonomy.
 
-Agentic & Multi-agent Safety. What happens when AI systems interact? We study coordination, cooperation, and failure modes in multi-agent systems, bridging the gap between multi-agent reinforcement learning and LLM-based agents.
+**Agentic & Multi-agent Safety.** What happens when AI systems interact? We study coordination, cooperation, and failure modes in multi-agent systems, bridging the gap between multi-agent reinforcement learning and LLM-based agents.
 
-Uncertainty & Risk Quantification.  How confident should we be in a system's outputs? We work on quantifying and communicating uncertainty across scales.
+**Uncertainty & Risk Quantification.**  How confident should we be in a system's outputs? We work on quantifying and communicating uncertainty across scales.
 
-Sustainability & Resource Impact.  What is the ecological footprint of neural ecosystems? We investigate the real-world resource costs of training and deploying AI systems at scale.
+**Sustainability & Resource Impact**.  What is the ecological footprint of neural ecosystems? We investigate methods to reduce the resource costs of continually training and deploying AI systems at scale.
 
 ## Interpretability & Transparency
 
@@ -27,7 +27,8 @@ Sustainability & Resource Impact.  What is the ecological footprint of neural ec
     venue="IJCNLP-AACL 2025"
     abstract="Language and culture are deeply intertwined, yet it is so far unclear how and where multilingual large language models encode culture. Here, we extend upon an established methodology for identifying language-specific neurons and extend it to localize and isolate culture-specific neurons, carefully disentangling their overlap and interaction with language-specific neurons. To facilitate our experiments, we introduce MUREL, a curated dataset of 85.2 million tokens spanning six different cultures. Our localization and intervention experiments show that LLMs encode different cultures in distinct neuron populations, predominantly in upper layers, and that these culture neurons can be modulated independently from language-specific neurons or those specific to other cultures. These findings suggest that cultural knowledge and propensities in multilingual language models can be selectively isolated and edited - promoting fairness, inclusivity, and alignment."
     code_url="https://github.com/namazifard/Culture_Neurons"
-    year="2025"
+    year="2025",
+    paper_url="https://aclanthology.org/2025.findings-ijcnlp.45/",
     authorcopy_url="https://arxiv.org/abs/2508.02241"
 %}
 
