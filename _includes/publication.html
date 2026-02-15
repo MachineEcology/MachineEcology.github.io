@@ -18,7 +18,7 @@
     <div class="publication-authors">{{ include.authors }}</div>
     <div class="publication-venue" style="font-size: 1.05rem; font-weight: 500; margin-top: 0.25rem;">
     {% if include.venue and include.venue != "" %}
-        <em>{{ include.venue }}</em>, {{ include.year }}
+        <em>{{ include.venue }}</em> {{ include.year }}
     {% endif %}
     </div>
     {% if include.abstract and include.abstract != "" %}
@@ -31,7 +31,7 @@
     </details>
     </div>
     {% endif %}
-    <div class="publication-links mt-1 mb-0">
+    <div class="publication-links mt-0 mb-0">
     {% if include.paper_url and include.paper_url != "" %}
         <a class="mr-1" href="{{ include.paper_url }}">Paper</a>
     {% endif %}
