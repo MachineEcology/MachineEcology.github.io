@@ -24,12 +24,12 @@ Our research is organized around five themes:
 {% include publication.html
     title="Isolating Culture Neurons in Multilingual Large Language Models"
     authors="Danial Namazifard, Lukas Galke"
-    venue="IJCNLP-AACL"
+    venue="IJCNLP-AACL Findings"
     abstract="Language and culture are deeply intertwined, yet it is so far unclear how and where multilingual large language models encode culture. Here, we extend upon an established methodology for identifying language-specific neurons and extend it to localize and isolate culture-specific neurons, carefully disentangling their overlap and interaction with language-specific neurons. To facilitate our experiments, we introduce MUREL, a curated dataset of 85.2 million tokens spanning six different cultures. Our localization and intervention experiments show that LLMs encode different cultures in distinct neuron populations, predominantly in upper layers, and that these culture neurons can be modulated independently from language-specific neurons or those specific to other cultures. These findings suggest that cultural knowledge and propensities in multilingual language models can be selectively isolated and edited - promoting fairness, inclusivity, and alignment."
     code_url="https://github.com/namazifard/Culture_Neurons"
     year="2025"
     paper_url="https://aclanthology.org/2025.findings-ijcnlp.45/"
-    authorcopy_url="https://arxiv.org/abs/2508.02241"
+    preprint_url="https://arxiv.org/abs/2508.02241"
 %}
 
 {% include publication.html
@@ -47,7 +47,7 @@ Our research is organized around five themes:
     venue="Language Development Research 5(1)"
     year="2025"
     paper_url="https://doi.org/10.34842/3vr5-5r49"
-    authorcopy_url="https://arxiv.org/abs/2403.14427"
+    preprint_url="https://arxiv.org/abs/2403.14427"
 %}
 
 {% include publication.html
@@ -75,7 +75,7 @@ Our research is organized around five themes:
     authors="Richard Šléher, William Brach, Tibor Sloboda, Kristián Košťál, and Lukas Galke"
     venue="ECAI"
     year="2025"
-    authorcopy_url="https://arxiv.org/abs/2505.14524"
+    preprint_url="https://arxiv.org/abs/2505.14524"
     project_url="https://gqr-bench.github.io"
     code_url="https://github.com/williambrach/gqr"
 %}
@@ -87,9 +87,38 @@ Our research is organized around five themes:
     authors="Filippo Tonini, Lukas Galke"
     venue="3rd International Conference on Frontiers of Artificial Intelligence, Ethics, and Multidisciplinary Applications (FAIEMA)"
     year="2025"
-    authorcopy_url="https://arxiv.org/abs/2508.15510"
+    preprint_url="https://arxiv.org/abs/2508.15510"
     project_url="https://github.com/pippot/Superadditive-cooperation-LLMs"
 %}
+
+## Sustainability & Resource Impact
+
+{% include publication.html
+    title="DeToNATION: Decoupled Torch Network-Aware Training on Interlinked Online Nodes"
+    authors="Mogens From, Jacob Nielsen, Lukas Galke, and Peter Schneider-Kamp"
+    venue="AAAI"
+    year="2026"
+    preprint_url="https://arxiv.org/abs/2502.06728"
+%}
+
+{% include publication.html
+    title="Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?"
+    authors="Jacob Nielsen, Peter Schneider-Kamp, and Lukas Galke"
+    venue="ACL Findings"
+    year="2025"
+    abstract="Large language models (LLMs) require immense resources for training and inference. Quantization, a technique that reduces the precision of model parameters, offers a promising solution for improving LLM efficiency and sustainability. While post-training quantization methods typically achieve 4-8 bits per parameter, recent research suggests that training LLMs with 1.58 bits per weight parameter from scratch can maintain model accuracy while greatly reducing memory requirements and energy consumption at inference time. Here, we investigate a training strategy for quantization-aware pre-training, where the models are first trained with 16-bit precision and then transition into 1.58-bit quantization-aware training. Our results on 11 downstream tasks, show that this 16-to-1.58-bit training strategy is preferable over full 1.58-bit training and leaves models closer to those which have undergone 16-bit training. We further investigate the effects of retaining the optimizer state at the transition point and gradually phasing in quantization strength - finding that both techniques alleviate the magnitude of loss spikes, but also that these effects can be compensated through further training."
+    paper_url="https://aclanthology.org/2025.findings-acl.694/"
+%}
+
+{% include publication.html
+    title="When are 1.58 bits enough? A Bottom-up Exploration of Quantization-aware Training with Ternary Weights"
+    authors="Jacob Nielsen, Lukas Galke, and Peter Schneider-Kamp"
+    venue="18th International Conference on Agents and Artificial Intelligence (ICAART)"
+    year="2025"
+    abstract="Contemporary machine learning models, such as language models, are powerful, but come with immense resource requirements both at training and inference time. It has been shown that decoder-only language models can be trained to a competitive state with ternary weights (1.58 bits per weight), facilitating efficient inference. Here, we start our exploration with non-transformer model architectures, investigating 1.58-bit training for multi-layer perceptrons and graph neural networks. Then, we explore 1.58-bit training in other transformer-based language models, namely encoder-only and encoder-decoder models. Our results show that in all of these settings, 1.58-bit training is on par with or sometimes even better than the standard 32/16-bit models."
+    preprint_url="https://arxiv.org/abs/2411.05882"
+%}
+
 
 ## Uncertainty & Risk Quantification
 
@@ -109,28 +138,7 @@ Our research is organized around five themes:
     venue="Neural Networks 164"
     year="2023"
     paper_url="https://doi.org/10.1016/j.neunet.2023.04.022"
-    authorcopy_url="https://pure.mpg.de/rest/items/item_3368482_4/component/file_3510107/content"
+    preprint_url="https://pure.mpg.de/rest/items/item_3368482_4/component/file_3510107/content"
     data_url="https://doi.org/10.5281/zenodo.3764770"
     code_url="https://github.com/lgalke/lifelong-learning"
 %}
-
-## Sustainability & Resource Impact
-
-{% include publication.html
-    title="Continual Quantization-Aware Pre-Training: When to transition from 16-bit to 1.58-bit pre-training for BitNet language models?"
-    authors="Jacob Nielsen, Peter Schneider-Kamp, and Lukas Galke"
-    venue="ACL Findings"
-    year="2025"
-    abstract="Large language models (LLMs) require immense resources for training and inference. Quantization, a technique that reduces the precision of model parameters, offers a promising solution for improving LLM efficiency and sustainability. While post-training quantization methods typically achieve 4-8 bits per parameter, recent research suggests that training LLMs with 1.58 bits per weight parameter from scratch can maintain model accuracy while greatly reducing memory requirements and energy consumption at inference time. Here, we investigate a training strategy for quantization-aware pre-training, where the models are first trained with 16-bit precision and then transition into 1.58-bit quantization-aware training. Our results on 11 downstream tasks, show that this 16-to-1.58-bit training strategy is preferable over full 1.58-bit training and leaves models closer to those which have undergone 16-bit training. We further investigate the effects of retaining the optimizer state at the transition point and gradually phasing in quantization strength - finding that both techniques alleviate the magnitude of loss spikes, but also that these effects can be compensated through further training."
-    paper_url="https://aclanthology.org/2025.findings-acl.694/"
-%}
-
-{% include publication.html
-    title="When are 1.58 bits enough? A Bottom-up Exploration of Quantization-aware Training with Ternary Weights"
-    authors="Jacob Nielsen, Lukas Galke, and Peter Schneider-Kamp"
-    venue="18th International Conference on Agents and Artificial Intelligence (ICAART)"
-    year="2025"
-    abstract="Contemporary machine learning models, such as language models, are powerful, but come with immense resource requirements both at training and inference time. It has been shown that decoder-only language models can be trained to a competitive state with ternary weights (1.58 bits per weight), facilitating efficient inference. Here, we start our exploration with non-transformer model architectures, investigating 1.58-bit training for multi-layer perceptrons and graph neural networks. Then, we explore 1.58-bit training in other transformer-based language models, namely encoder-only and encoder-decoder models. Our results show that in all of these settings, 1.58-bit training is on par with or sometimes even better than the standard 32/16-bit models."
-    authorcopy_url="https://arxiv.org/abs/2411.05882"
-%}
-
